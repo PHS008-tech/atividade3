@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    font: italic 1em Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    text-align: center;
+}
+p{
+    font-weight: 600;
+    text-indent: 25px;
+}

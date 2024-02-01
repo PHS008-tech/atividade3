@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'work sans' Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: oblique;
+    text-decoration: double;
+
+    /*Shorthand
+    
+    Ordem
+    font-style --> font-weight --> font size --> font-family
+
+    SEMPRE SEGUI ESSA ORDEM
+    CASO NÃO SEGUIR A ORDEM VAI DAR ERRO
+    
+    
+    
+    */
+}
+
