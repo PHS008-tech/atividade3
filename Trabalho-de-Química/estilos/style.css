@@ -2,16 +2,14 @@
 
 
 :root{
-    --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
+    --cor0: #e1c3ff;
+    --cor1: #AB74ED;
+    --cor2: #b38bff;
+    --cor3: #7a5299;
+    --cor4: #4b0082;
+    --cor5: #3a0063;
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
-    --fonte-destaque: 'Bebas Neue', sans-serif;
-    --fonte-android: 'Android';
 }
 
 *{
@@ -39,7 +37,7 @@ main h2{
 }
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
     min-height: 25px;
     text-align: center;
     padding: 35px;
@@ -55,11 +53,20 @@ header > h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
 }
 
+article > h1{
+    font-size: 40px;
+    text-align: center;
+}
+
 header > p{
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 40px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+header > a{
+    color: white;
 }
 
 main{
@@ -71,7 +78,9 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     border-radius: 0px 0px 10px 10px;
 }
+
 main img{
+    padding: 15px;
     width: 100%;
 }
 
@@ -94,10 +103,24 @@ ul#ajuda{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
     list-style-type: '\2714';
     list-style-position: inside;
-    columns: 2;
+}
+
+li{
+    color: var(--cor5);
+}
+
+ul#prejudiciais{
+    background-color: var(--cor1);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.253);
+    list-style-type: '\2716';
+    list-style-position: inside;
 }
 
 footer{
+    margin: 0%;
+    padding: 0%;
     background-color: var(--cor5);
     color: white;
 }
